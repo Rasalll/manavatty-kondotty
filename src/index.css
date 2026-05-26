@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Montserrat", sans-serif;
+  
+  --color-primary-brand: #8C1A42;
+  --color-gold-brand: #C9973A;
+  --color-plum-brand: #1E0F17;
+  --color-cream-brand: #FDF7F2;
+  --color-accent-brand: #6b002c;
+  
+  --animate-fade-in: fade-in 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  --animate-slide-up: slide-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-brand);
+  color: var(--color-plum-brand);
+}
+
+h1, h2, h3, h4, .font-serif-brand {
+  font-family: var(--font-serif);
+}
+
+/* Luxury card shadow */
+.luxury-shadow {
+  box-shadow: 0 8px 30px rgba(30, 15, 23, 0.05);
+}
+
+.luxury-glow {
+  box-shadow: 0 0 20px rgba(201, 151, 58, 0.2);
+}
+
+/* Custom scrollbar to match the high-end editorial feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FDF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9973A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8C1A42;
+}
+

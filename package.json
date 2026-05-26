@@ -1,0 +1,28 @@
+{
+  "name": "manavatty-kondotty",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "next": "^15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.14.0",
+    "@types/react": "19.2.15",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^4.0.0",
+    "typescript": "~5.8.2"
+  }
+}
