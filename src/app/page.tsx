@@ -169,6 +169,10 @@ export default function Page() {
 
           {/* Main Title Hero Area */}
           <div className="lg:col-span-7 space-y-6 md:space-y-8 text-left">
+            <div className="flex items-center gap-2 mb-2" style={{ animation: "slide-up 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards" }}>
+              <span className="h-[1px] w-6 bg-[#C9973A]"></span>
+              <span className="text-xs uppercase tracking-[0.25em] text-[#C9973A] font-bold">A Legacy of Trust Since 2008</span>
+            </div>
 
             <h1 className="font-serif text-4xl md:text-6xl text-white font-bold leading-[1.15] tracking-tight" style={{ animation: "slide-up 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards" }}>
               Best Flower Decor <br />
@@ -176,7 +180,7 @@ export default function Page() {
             </h1>
 
             <p className="font-sans text-sm md:text-base text-white/80 max-w-xl leading-relaxed" style={{ animation: "slide-up 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards", animationDelay: "700ms", animationFillMode: "both" }}>
-              Welcome to Manavatty Kondotty, the best fancy shop and premium flower decoration service in Kondotty. We custom design fresh wedding bouquets, grand stage layouts, and offer the finest collection of gold-plated traditional Kerala ornaments.
+              Since 2008, Manavatty Kondotty has been the trusted destination for premium flower decoration and exquisite bridal styling. From fresh wedding bouquets to traditional Kerala ornaments, we craft memories that stay beautiful forever.
             </p>
 
 
@@ -565,8 +569,9 @@ export default function Page() {
                 </div>
                 <div>
                   <h4 className="text-xs font-bold uppercase tracking-wider text-plum-brand">Phone Helpline</h4>
-                  <p className="text-xs text-on-surface-variant leading-relaxed mt-1 font-sans">
-                    098462 25085
+                  <p className="text-xs text-on-surface-variant leading-relaxed mt-1 font-sans flex flex-col gap-0.5">
+                    <a href="tel:+919846225085" className="hover:text-[#8C1A42] transition-colors">+91 98462 25085</a>
+                    <a href="tel:+919846225095" className="hover:text-[#8C1A42] transition-colors">+91 98462 25095</a>
                   </p>
                 </div>
               </div>
@@ -596,7 +601,7 @@ export default function Page() {
                 <span className="material-symbols-outlined text-[16px]">directions</span> Get Directions on Maps
               </a>
               <a
-                href="tel:09846225085"
+                href="tel:+919846225085"
                 className="bg-white hover:bg-stone-50 active:scale-[0.98] text-[#8C1A42] border border-[#ddbfc4] text-xs uppercase tracking-widest font-bold px-6 py-3.5 rounded transition-all flex items-center gap-2 shadow-sm"
               >
                 <span className="material-symbols-outlined text-[16px]">call</span> Call Store Desk
@@ -646,7 +651,7 @@ export default function Page() {
                 <h3 className="font-serif text-2xl font-bold text-white tracking-tight">Manavatty Kondotty</h3>
               </div>
               <p className="text-xs text-white/60 leading-relaxed font-sans">
-                Discover the best fancy shop and premium flower decoration services in Kondotty, Kerala. We provide handcrafted bridal bouquets, Kasavu jewelry, and stunning stage setups.
+                Adorning bridal dreams and celebrating special moments since 2008. The trusted choice for elite flower decoration and traditional ornaments in Kondotty, Kerala.
               </p>
               <div className="flex gap-4">
                 <a href="#" className="w-9 h-9 rounded-full border border-white/15 hover:bg-[#C9973A] hover:border-transparent transition-colors flex items-center justify-center text-white">
@@ -682,7 +687,8 @@ export default function Page() {
               <ul className="space-y-3 text-xs text-white/50 font-sans">
                 <li>Shop No 1, Thangals Rd, Kondotty, Kerala 673638</li>
                 <li>hello@manavattykondotty.com</li>
-                <li>098462 25085</li>
+                <li><a href="tel:+919846225085" className="hover:text-white transition-colors">+91 98462 25085</a></li>
+                <li><a href="tel:+919846225095" className="hover:text-white transition-colors">+91 98462 25095</a></li>
                 <li className="pt-2">
                   <a
                     href="https://maps.app.goo.gl/EmNYkqkFvBAzq2Dh8?g_st=iw"
