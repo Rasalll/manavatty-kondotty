@@ -489,7 +489,7 @@ export default function Page() {
             />
             {/* Overlay stats badges */}
             <div className="absolute bottom-6 right-6 bg-[#C9973A] text-[#1E0F17] p-5 rounded font-sans text-center transition-transform hover:scale-105 duration-300">
-              <span className="block font-serif text-3xl font-extrabold text-white leading-tight">8+</span>
+              <span className="block font-serif text-3xl font-extrabold text-white leading-tight">14+</span>
               <span className="text-[9px] font-bold tracking-widest uppercase block leading-tight mt-1 text-white">Years of<br />Excellence</span>
             </div>
           </div>

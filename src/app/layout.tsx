@@ -64,14 +64,14 @@ export default function RootLayout({
         {/* Favicon */}
         <link rel="icon" href="/images/manavatty-main-icon.png" type="image/png" />
         {/* Playfair Display and Montserrat fonts */}
-        <link 
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" 
-          rel="stylesheet" 
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
         />
         {/* Material Symbols Outlined icons */}
-        <link 
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" 
-          rel="stylesheet" 
+        <link
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+          rel="stylesheet"
         />
       </head>
       <body className="bg-[#fef8f3] text-[#1d1b19] font-sans antialiased selection:bg-rose-100">
